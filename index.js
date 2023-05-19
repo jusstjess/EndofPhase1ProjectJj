@@ -7,11 +7,5 @@ const lightBtn = document.getElementById("toggleLight")
 
 const darkBtn = document.getElementById("toggleDark")
 
-lightBtn.addEventListener("change", )
 
     
-function toggleEvent(){
-    const dark = true;
-
-    
-}

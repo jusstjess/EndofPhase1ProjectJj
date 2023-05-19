@@ -1,19 +1,35 @@
 {
-  "posts": [
+  "candies": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "title": "Airhead Extremes",
+      "inventory": 5,
+      "price": "$6.00"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "body": "Mystery Mix",
+      "inventory": 5,
+      "price": "$6.00"
+    },
+    {
+      "id": 3,
+      "title": "Gushers",
+      "inventory": 5,
+      "price": "$7.00"
+    },
+    {
+      "id": 4,
+      "title": "Skittles",
+      "inventory": 5,
+      "price": "$6.00"
+    },
+    {
+      "id": 5,
+      "title": "Sour Patch Kids",
+      "inventory": 5,
+      "price": "$6.00"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
+
 }

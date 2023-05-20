@@ -5,28 +5,35 @@
       "name": "Sour Punch Straws",
       "inventory": 5,
       "price": "$6.00",
-      "image": "https://cdn.shopify.com/s/files/1/0454/7932/9952/products/rainbowsourpunchfuego_900x.jpg?v=1599035069"
+      "image": "https://cdn.shopify.com/s/files/1/0454/7932/9952/products/rainbowsourpunchfuego_900x.jpg?v=1599035069",
+      "votes":0
     },
     {
       "id": 2,
       "name": "Mystery Mix",
       "inventory": 5,
-      "price": "$6.00",
-      "image": "https://cdn.shopify.com/s/files/1/0454/7932/9952/products/IMG_3088_740x.jpg?v=1599417272"
+      "price":"$6.00",
+      "image": "https://cdn.shopify.com/s/files/1/0454/7932/9952/products/IMG_3088_740x.jpg?v=1599417272",
+      "votes":0
+
     },
     {
       "id": 3,
       "name": "Gushers",
       "inventory": 5,
       "price": "$7.00",
-      "image": "https://cdn.shopify.com/s/files/1/0454/7932/9952/products/GushersFuego_1024x1024@2x.jpg?v=1599417338"
+      "image": "https://cdn.shopify.com/s/files/1/0454/7932/9952/products/GushersFuego_1024x1024@2x.jpg?v=1599417338",
+      "votes":0
+
     },
     {
       "id": 4,
       "name": "Skittles",
       "inventory": 5,
       "price": "$6.00",
-      "image": "https://cdn.shopify.com/s/files/1/0454/7932/9952/products/skittlesfugeo_900x.jpg?v=1599033762"
+      "image": "https://cdn.shopify.com/s/files/1/0454/7932/9952/products/skittlesfugeo_900x.jpg?v=1599033762",
+      "votes":0
+
 
     },
     {
@@ -34,14 +41,18 @@
       "name": "Sour Patch Kids",
       "inventory": 5,
       "price": "$6.00",
-      "image": "https://cdn.shopify.com/s/files/1/0454/7932/9952/products/sourpatchkids_1024x1024@2x.jpg?v=1598938710"
+      "image": "https://cdn.shopify.com/s/files/1/0454/7932/9952/products/sourpatchkids_1024x1024@2x.jpg?v=1598938710",
+      "votes":0
+
     },
     {
       "id": 6,
       "name": "Gummy Bears",
       "inventory": 5,
       "price": "$6.00",
-      "image": "https://cdn.shopify.com/s/files/1/0454/7932/9952/products/gummybearsfuego_1024x1024@2x.jpg?v=1598904434"
+      "image": "https://cdn.shopify.com/s/files/1/0454/7932/9952/products/gummybearsfuego_1024x1024@2x.jpg?v=1598904434",
+      "votes":0
+
     },
     {
       "id": 7,
@@ -49,7 +60,7 @@
       "inventory": 5,
       "price": "$6.00",
       "image":"https://cdn.shopify.com/s/files/1/0454/7932/9952/products/Airheadextremesfuego_900x.jpg?v=1598902859",
-      "type": "american"
+      "votes":0
     }
   ]
 

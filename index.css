@@ -8,6 +8,13 @@ body {
     color: white;
 }
 
+.button{
+   background-color: #E42C00;
+   color: white;
+   margin-bottom: 15px;
+   margin-top: -5px;
+}
+
 #toggleDark{
     background-color: #2d2e2d;
 }
@@ -53,17 +60,14 @@ body {
     margin-top: 20px;
 
 }
-.card{
-    box-shadow: 0 5px 8px 0 rgba(82, 1, 1, 0.2);
+.imageContainer{
+    box-shadow: 0 8px 10px 0 rgba(247, 43, 43, 0.2);
     transition: 0.4s;
 }
 #candyName{
     color: yellow;
 }
-#candyPrice{
-    color: yellow;
-    margin-top: -15px;
-}
+
    
 
 .imageContainer{

@@ -32,24 +32,28 @@ function addingCandies(candy) {
       image.classList.add("imageContainer");
       //creating h2 & h3 elements for candy name & price 
       const h2 = document.createElement("h2");
-      const h3 = document.createElement("h3");
       h2.setAttribute("id","candyName");
-      h3.setAttribute("id","candyPrice");
    
+      //creating button for voting 
+      let btn = document.createElement('button')
+      btn.setAttribute('id', "votingBtn")
+      btn.classList.add("button")
+      btn.textContent = `${candy.votes} votes received,
+      click here to VOTE`
       //set image source
       image.src = candy.image    
       //set text content 
-      h2.textContent = candy.name;
-      h3.textContent = `Price: ${candy.price}`
+      h2.textContent = candy.name+": "+ candy.price;
      
 
-      //appending h2, img cardContainer
-      card.appendChild(image);
+      //appending h2, img 
+  
       card.appendChild(h2);
-      card.appendChild(h3);
+      card.appendChild(btn);
 
-
+      document.getElementById("card-container").appendChild(image);
       document.getElementById("card-container").appendChild(card);
+
 }
 
 

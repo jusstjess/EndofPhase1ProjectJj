@@ -2,33 +2,54 @@
   "candies": [
     {
       "id": 1,
-      "title": "Airhead Extremes",
+      "name": "Sour Punch Straws",
       "inventory": 5,
-      "price": "$6.00"
+      "price": "$6.00",
+      "image": "https://cdn.shopify.com/s/files/1/0454/7932/9952/products/rainbowsourpunchfuego_900x.jpg?v=1599035069"
     },
     {
       "id": 2,
-      "body": "Mystery Mix",
+      "name": "Mystery Mix",
       "inventory": 5,
-      "price": "$6.00"
+      "price": "$6.00",
+      "image": "https://cdn.shopify.com/s/files/1/0454/7932/9952/products/IMG_3088_740x.jpg?v=1599417272"
     },
     {
       "id": 3,
-      "title": "Gushers",
+      "name": "Gushers",
       "inventory": 5,
-      "price": "$7.00"
+      "price": "$7.00",
+      "image": "https://cdn.shopify.com/s/files/1/0454/7932/9952/products/GushersFuego_1024x1024@2x.jpg?v=1599417338"
     },
     {
       "id": 4,
-      "title": "Skittles",
+      "name": "Skittles",
       "inventory": 5,
-      "price": "$6.00"
+      "price": "$6.00",
+      "image": "https://cdn.shopify.com/s/files/1/0454/7932/9952/products/skittlesfugeo_900x.jpg?v=1599033762"
+
     },
     {
       "id": 5,
-      "title": "Sour Patch Kids",
+      "name": "Sour Patch Kids",
       "inventory": 5,
-      "price": "$6.00"
+      "price": "$6.00",
+      "image": "https://cdn.shopify.com/s/files/1/0454/7932/9952/products/sourpatchkids_1024x1024@2x.jpg?v=1598938710"
+    },
+    {
+      "id": 6,
+      "name": "Gummy Bears",
+      "inventory": 5,
+      "price": "$6.00",
+      "image": "https://cdn.shopify.com/s/files/1/0454/7932/9952/products/gummybearsfuego_1024x1024@2x.jpg?v=1598904434"
+    },
+    {
+      "id": 7,
+      "name": "Airhead Extremes",
+      "inventory": 5,
+      "price": "$6.00",
+      "image":"https://cdn.shopify.com/s/files/1/0454/7932/9952/products/Airheadextremesfuego_900x.jpg?v=1598902859",
+      "type": "american"
     }
   ]
 

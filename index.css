@@ -60,12 +60,9 @@ body {
     margin-top: 20px;
 
 }
-.imageContainer{
-    box-shadow: 0 8px 10px 0 rgba(247, 43, 43, 0.2);
-    transition: 0.4s;
-}
+
 #candyName{
-    color: yellow;
+    color: orange;
 }
 
    
@@ -73,6 +70,9 @@ body {
 .imageContainer{
     width: 240px;
     height: 200px;
+}
+#card-container{
+text-align: center;
 }
 #votingParagragh{
 font-size: 40px;}

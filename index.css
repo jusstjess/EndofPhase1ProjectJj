@@ -44,11 +44,11 @@ body {
     margin-top: -40px;
   
 }
-#featPhotos{
+#featPhotos {
     text-align: center;
 
 }
-#featPhotos:hover{
+#featPhotos img:hover{
    
     animation: shake 0.7s;
     animation-iteration-count: 1;
@@ -76,12 +76,6 @@ body {
    
 }
 
-
-
-
-
-
-
 #candyName{
     color: orange;
 }
@@ -106,16 +100,12 @@ body {
 }
 .cardDiv{
 
-
     width: 260px;
     height: 220px;
     padding: 5px;
     background-color: rgb(248, 122, 5);
     margin: auto;
-   margin-bottom: 20px;
-  
-
-    
+    margin-bottom: 20px;
 }
 
 .cardDiv img {

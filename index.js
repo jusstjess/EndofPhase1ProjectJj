@@ -11,11 +11,13 @@ const darkBtn = document.getElementById("toggleDark").addEventListener("click",t
 
 function togglingModeLight(){
     document.body.style.backgroundColor = "white"
-     document.getElementById("motto").style.color = "black";
+     document.getElementById("slogan").style.color = "black";
      document.getElementById("votingParagragh").style.color = "black";   }
+
 function togglingModeDark(){
     document.body.style.backgroundColor = "black"
-    document.getElementById("motto").style.color = "white";
+    document.getElementById("slogan").style.color = "white";
+    document.getElementById("votingParagragh").style.color = "white";  
 
 }
 
@@ -33,9 +35,9 @@ function addingCandies(candy) {
       card.classList.add("cardDiv");
       //creating image element 
       let image = document.createElement("img");
-      image.classList.add("imageContainer");
+      //image.classList.add("imageContainer");
       //creating h2 & h3 elements for candy name & price 
-      const h2 = document.createElement("h2");
+      let h2 = document.createElement("h2");
       h2.setAttribute("id","candyName");
    
       //creating button for voting 
@@ -55,7 +57,7 @@ function addingCandies(candy) {
              let currentVotes = (candy.votes +=1)
              btn.textContent = `${currentVotes} votes received,
       click here to VOTE`
-      const data = {"votes": `${currentVotes}` }
+      const data = {"votes": currentVotes }
       fetch(`http://localhost:3000/candies/${candy.id}`, {
         method: "PATCH",
         headers: {
@@ -72,11 +74,13 @@ function addingCandies(candy) {
       click here to VOTE`
       
       //appending h2, btn 
+      card.appendChild(image)
       card.appendChild(h2);
       card.appendChild(btn);
+   
 
       //appending image , card 
-      document.getElementById("card-container").appendChild(image);
+      //document.getElementById("card-container").appendChild(image);
       document.getElementById("card-container").appendChild(card);
       } 
 
